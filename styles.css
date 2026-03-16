@@ -124,8 +124,8 @@ ul{margin:.5rem 0 1rem;padding-left:1.2rem}
 
 /* Map placeholder */
 .map__placeholder{
-  background:repeating-linear-gradient(45deg,#eef6fb,#eef6fb 10px,#e1eef7 10px,#e1eef7 20px);
-  border:1px solid var(--border);border-radius:16px;min-height:220px;display:flex;align-items:center;justify-content:center;color:var(--brand);font-weight:800;
+  background-image:url(./image/map.jpg);
+  border:1px solid var(--border);border-radius:16px;min-height:400px;display:flex;align-items:center;justify-content:center;color:var(--brand);font-weight:800;
 }
 
 /* Products */
