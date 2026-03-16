@@ -124,7 +124,7 @@ ul{margin:.5rem 0 1rem;padding-left:1.2rem}
 
 /* Map placeholder */
 .map__placeholder{
-  background-image:url(./image/map.jpg);
+  background-image:url(./img/map.jpg);
   border:1px solid var(--border);border-radius:16px;min-height:400px;display:flex;align-items:center;justify-content:center;color:var(--brand);font-weight:800;
 }
 
