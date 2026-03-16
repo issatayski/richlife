@@ -109,6 +109,13 @@ ul{margin:.5rem 0 1rem;padding-left:1.2rem}
 .adv{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:18px}
 
 /* Logos */
+
+.logo_prt img{
+    display:block;
+    margin:auto;
+}
+
+
 .logos{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}
 .logo{background:var(--card);border:1px dashed var(--border);border-radius:14px;padding:18px;text-align:center;color:var(--muted);font-weight:700}
 @media (max-width: 800px){.logos{grid-template-columns:repeat(2,minmax(0,1fr))}}
