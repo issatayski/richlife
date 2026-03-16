@@ -85,7 +85,8 @@ ul{margin:.5rem 0 1rem;padding-left:1.2rem}
 
 /* ====== Sections ====== */
 .section{padding:64px 0}
-.section.alt{background-image:url("./img/department-stor.jpg");}
+.section.alt{background:#fff;}
+.section.ctrl{background-image:url("./img/department-stor.jpg");}
 .section__head{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
 
 /* Stats */
