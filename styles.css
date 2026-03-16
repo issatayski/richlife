@@ -29,7 +29,7 @@ ul{margin:.5rem 0 1rem;padding-left:1.2rem}
 
 .btn{
   display:inline-flex;align-items:center;justify-content:center;
-  gap:.5rem;border:1px solid var(--border);background:var(--card);
+  gap:.5rem;border:1px solid var(--border);background:#f1c134;
   color:var(--txt);padding:.7rem 1rem;border-radius:12px;
   text-decoration:none;cursor:pointer;transition:.2s ease; font-weight:600;
 }
