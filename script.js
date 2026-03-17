@@ -59,3 +59,25 @@ Email: ${email}
 
   form.reset();
 });
+
+// запрос прайса
+document.addEventListener('DOMContentLoaded', function () {
+
+  document.querySelectorAll('.btn').forEach(button => {
+    button.addEventListener('click', function() {
+      
+      const product = this.closest('.product');
+      const title = product.querySelector('.product__title').innerText;
+      const meta = product.querySelector('.product__meta').innerText;
+
+      const phone = "77000000000"; // <-- твой номер
+
+      const message = `Здравствуйте! Интересует товар: ${title} (${meta})`;
+      
+      const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+
+      window.open(url, '_blank');
+    });
+  });
+
+});
