@@ -134,6 +134,11 @@ ul{margin:.5rem 0 1rem;padding-left:1.2rem}
 .product__title{margin:0}
 .product__meta{margin:0;color:var(--muted)}
 .product__cta{margin-top:auto;display:flex;gap:10px}
+.product__img img{
+    width:60%;
+    height:90%;
+    object-fit:cover;
+}
 
 /* Steps */
 .steps{display:grid;gap:10px;counter-reset:step}
