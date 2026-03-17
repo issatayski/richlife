@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', function () {
       const title = product.querySelector('.product__title').innerText;
       const meta = product.querySelector('.product__meta').innerText;
 
-      const phone = "77000000000"; // <-- твой номер
+      const phone = "77754046186"; // <-- твой номер
 
       const message = `Здравствуйте! Интересует товар: ${title} (${meta})`;
       
