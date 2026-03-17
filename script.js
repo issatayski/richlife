@@ -53,7 +53,7 @@ Email: ${email}
 Категория: ${category}
 Комментарий: ${msg}`;
 
-  const url = `https://wa.me/77754046186?text=${encodeURIComponent(text)}`;
+  const url = `https://wa.me/77007205305?text=${encodeURIComponent(text)}`;
 
   window.open(url, "_blank");
 
@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', function () {
       const title = product.querySelector('.product__title').innerText;
       const meta = product.querySelector('.product__meta').innerText;
 
-      const phone = "77754046186"; // <-- твой номер
+      const phone = "77007205305"; // <-- твой номер
 
       const message = `Здравствуйте! Интересует товар: ${title} (${meta})`;
       
